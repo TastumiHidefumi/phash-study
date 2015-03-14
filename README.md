@@ -1,14 +1,22 @@
 # phash-study
 
 
-## 実際に試してみた結果
-いくつかサンプル画像を用意して試してみる。利用した画像は ```samples``` 以下に置いてある。
-
+## 実験1 同一画像の加工時の比較
+- いくつかサンプル画像を用意して試してみる。利用した画像は ```samples``` 以下に置いてある。
+- サンプル
+ - おなじみのlena画像を各種加工してみる
+ 
 ### 結果
 
 | No | 画像 | ハッシュ値 | No.0とのハミング距離 |
 |----|------|------------|----------------------|
-|0 |  | c91cb262775a9800 | - |
+|0 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena.jpg)            | c91cb262775a9800 | - |
+|1 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-small.jpg)      | c91cb262775a9800 | 0 |
+|2 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-sepia.jpg)      | c914b262775a9800 | 2 |
+|3 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-mosaic.jpg)     | c98cb022375ad800 | 8 |
+|4 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-lena-cut.jpg)   | c9acb866635a9800 | 8 |
+|5 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-lena-cut2.jpg)  | cb8cba66535a9800 | 8 |
+|6 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-lena-horizonal-flip.jpg) | dc69f7330287e000 | 34 |
 
 ### サンプルプログラム
 
