@@ -14,9 +14,9 @@
 |1 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-small.jpg)      | c91cb262775a9800 | 0 |
 |2 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-sepia.jpg)      | c914b262775a9800 | 2 |
 |3 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-mosaic.jpg)     | c98cb022375ad800 | 8 |
-|4 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-lena-cut.jpg)   | c9acb866635a9800 | 8 |
-|5 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-lena-cut2.jpg)  | cb8cba66535a9800 | 8 |
-|6 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-lena-horizonal-flip.jpg) | dc69f7330287e000 | 34 |
+|4 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-cut.jpg)   | c9acb866635a9800 | 8 |
+|5 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-cut2.jpg)  | cb8cba66535a9800 | 8 |
+|6 | ![](https://raw.githubusercontent.com/hideack/phash-study/master/samples/lena-horizonal-flip.jpg) | dc69f7330287e000 | 34 |
 
 ### サンプルプログラム
 
