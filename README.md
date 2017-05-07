@@ -1,5 +1,7 @@
 # phash-study
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hideack/phash-study.svg)](https://greenkeeper.io/)
+
 
 ## 実験1 同一画像の加工時の比較
 - いくつかサンプル画像を用意して試してみる。利用した画像は ```samples``` 以下に置いてある。
